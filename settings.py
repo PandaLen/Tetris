@@ -1,9 +1,16 @@
 import pygame as pg
-vec = pg.math.vector2
+vec = pg.math.Vector2
 
 FPS = 60
 FIELD_COLOR = (48, 39, 32)
-BG_COLOR = (24, 89, 117)
+BG_COLOR = (49, 63, 69)
+
+SPRITE_DIR_PATH = 'assets/sprites'
+FONT_PATH = 'assets/VCR_OSD_MONO_1.001.ttf'
+MUSIC_PATH = 'assets/Tetris.mp3'
+
+ANIM_TIME_INTERVAL = 150
+FAST_ANIM_TIME_INTERVAL = 15
 
 TILE_SIZE = 50
 FIELD_SIZE = FIELD_W, FIELD_H = 10, 20
