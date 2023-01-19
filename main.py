@@ -19,7 +19,7 @@ class Game:
         self.text = Text(self)
         mixer.music.load(MUSIC_PATH)
         mixer.music.set_volume(0.1)
-        mixer.music.play()
+        mixer.music.play(-1)
         self.running = True
 
     def load_images(self):
