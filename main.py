@@ -18,7 +18,7 @@ class Game:
         self.tetris = Tetris(self)
         self.text = Text(self)
         mixer.music.load(MUSIC_PATH)
-        mixer.music.set_volume(0.2)
+        mixer.music.set_volume(0.1)
         mixer.music.play()
         self.running = True
 
